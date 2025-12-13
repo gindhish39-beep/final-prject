@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #dfdfd8
+}
+
+.container{
+    width: min(90%, 1120px);
+    margin-inline: auto;
+}
+header{
+    background-color: #dbdb7c;
+    height: 72px;
+    /* margin-top: 10px; */
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+.desktop-menu{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menus-link{
+    display: flex;
+    gap: 20px;
+}
+.menus-link li{
+    list-style: none;
+    color: #2b2b2b;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.menus-link li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menus-link li:hover{
+    color: #5f6ad4;
+}
+.desktop-menu h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hamburger{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+i{
+    z-index: 11111;
+}
+.mobile-menu-actions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    /* align-items: center; */
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-primary{
+    display: inline-block;
+    background-color: #5f6ad4;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.btn-secondary{
+    display: inline-block;
+    background-color: #bf9f59;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.hero{
+    height: 90vh;
+    /* background-color: aqua; */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    }
+     .hero .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+     .hero .container h1{
+        font-size: 90px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 73px;
+        font-family: sans-serif;
+        padding: 20px;
+     }
+
+     .btn{
+    display: inline-block;
+    background-color: #5f6ad4;
+    padding: 15px;
+    margin-top: 20px;    
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+     }
+     .btn:hover{
+        color: rgb(169, 89, 9);
+        background-color: #dbdb7c;
+     }
+
+ .yoga{
+        height: 80vh;
+         background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin-top: 50px;
+         border-radius: 25px;
+         align-content: flex-end;      
+        background-attachment: fixed;
+  
+         
+        }
+        .yoga .content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        max-width: 729px;
+        margin-inline: auto;
+        margin-bottom: 12rem;
+        }
+
+        
+        .yoga h1{
+        font-size: 30px;
+        font-weight: 700;
+        font-style: normal;
+        font-family: sans-serif;
+        text-align: center;
+        }
+    
+         .yoga p{
+        font-size: 25px;
+        font-weight: 100;
+        font-style: normal;
+        font-family: sans-serif;
+        }
+
+
+        .boxs{
+        width: 700px;
+        /* margin:; */
+        margin: 80px;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-top: 50px;
+        /* margin-bottom: 20px; */
+
+        }
+        .box1 img{
+            width: 490px;
+            border-radius: 20px;
+        }
+        .box1 h3{
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 29px;
+            color: #2b2b2b;
+            /* margin-right: 20px; */
+            line-height: 27px;
+            padding: 10px;
+        }
+        .box1 p{
+             font-family: sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            color: #2b2b2b;
+            line-height: 20px;
+            padding: 5px;
+        }
+          .botton1{
+            background-color: #5f6ad4;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+           
+        }
+        .botton1:hover{
+            color: #2b2b2b;
+            background-color: #d5bd6e;
+        }
+        .perfect-condition{
+            height: 70vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./yoga\ .avif) center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            background-attachment: fixed;
+        }
+        .perfect-condition h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+        }
+          .perfect-condition h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+        }
+         .perfect-condition p{
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .yoga-video{
+        /* width: 90vh; */
+        padding: 60px;
+        vertical-align: center;
+        margin: 50px;
+        /* text-size-adjust: 100%; */
+        
+         }
+        .yoga-video img{
+            width: 1200px;
+            height: 600px;
+            border-radius: 40px;
+        }
+
+
+        .yoga-video h1{
+        color: black;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+.blogs{
+    /* width: 70%; */
+    /* background-color: aqua; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    flex-wrap: wrap;
+
+    }
+
+.blogs img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.blogs h1{
+    color:  black;
+    font-size: 20px;
+    font-style: normal;
+    padding: 5px;
+}
+.blogs p{
+    color:  black;
+    font-size: 17px;
+    font-style: normal;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+    
+
+    
+
+
+
+
+
+
+@media  (max-width: 768px){
+     .desktop-menu{
+        display: none;
+     }
+     header{
+        height: 0;
+     }
+    .hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 5%;
+    background-color: #5f6ad4;
+    color: white;
+    padding: 10px;
+    /* width: 100%; */
+    /* height: 100%; */
+    right: 5%;
+    border-radius: 50%;
+    font-size: 17px;
+}
+.mobile-menu{
+    display: flex;
+    position: fixed;
+    background-color:#757a92;
+    inset: 0 0 0 0 ;
+    justify-content: center;
+    flex-direction: column;
+    /* color: white; */
+    /* align-items: center; */
+}
+.mobile-menu .navigation{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.mobile-menu .navigation .menus-link{
+    /* display: flex; */
+    flex-direction: column;
+
+}
+
+/* .mobile-menu .navigation .menus-link a {
+    color: rgb(249, 246, 246) important;
+    font-size: 10px; */
+    .mobile-menu h1{
+        color: white;
+        border-bottom: 1px solid rgb(237, 234, 234);
+        padding: 10px;
+    }
+   
+}
+
+
+
+
+    
+
